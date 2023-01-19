@@ -23,17 +23,8 @@ class ClienteController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function create()
-    {
-        //
-    }
 
-    /**
-     * Store a newly created resource in storage.
-     *
-     * @param  \App\Http\Requests\StoreClienteRequest  $request
-     * @return \Illuminate\Http\Response
-     */
+
     public function store(StoreClienteRequest $request)
     {
         //
@@ -61,13 +52,7 @@ class ClienteController extends Controller
         //
     }
 
-    /**
-     * Update the specified resource in storage.
-     *
-     * @param  \App\Http\Requests\UpdateClienteRequest  $request
-     * @param  \App\Models\Cliente  $cliente
-     * @return \Illuminate\Http\Response
-     */
+
     public function update(UpdateClienteRequest $request, Cliente $cliente)
     {
         //

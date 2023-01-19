@@ -23,17 +23,7 @@ class CarroController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function create()
-    {
-        //
-    }
 
-    /**
-     * Store a newly created resource in storage.
-     *
-     * @param  \App\Http\Requests\StoreCarroRequest  $request
-     * @return \Illuminate\Http\Response
-     */
     public function store(StoreCarroRequest $request)
     {
         //
@@ -56,18 +46,7 @@ class CarroController extends Controller
      * @param  \App\Models\Carro  $carro
      * @return \Illuminate\Http\Response
      */
-    public function edit(Carro $carro)
-    {
-        //
-    }
 
-    /**
-     * Update the specified resource in storage.
-     *
-     * @param  \App\Http\Requests\UpdateCarroRequest  $request
-     * @param  \App\Models\Carro  $carro
-     * @return \Illuminate\Http\Response
-     */
     public function update(UpdateCarroRequest $request, Carro $carro)
     {
         //
