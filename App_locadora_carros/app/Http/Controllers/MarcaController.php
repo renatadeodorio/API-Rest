@@ -23,9 +23,11 @@ class MarcaController extends Controller
      * @return \Illuminate\Http\Response
      */
 
+
     public function store(Request $request)
     {
-        //
+        $marca = Marca::create($request->all());
+        return $marca;
     }
 
     /**
